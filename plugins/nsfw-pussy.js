@@ -7,7 +7,6 @@ let handler = async (m, { conn }) => {
 handler.command = /^(pussy)$/i
 handler.tags = ['nsfw']
 handler.help = ['pussy']
-handler.premium = false
 
 global.pussy =[
     "https://konachan.com/sample/cf3ff894bc6ca3d9ad74b0895415df52/Konachan.com%20-%20344645%20sample.jpg"
