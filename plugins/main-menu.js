@@ -310,7 +310,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
               {
                 "rows": [{
                   "title": ` 👨 OWNER BOT`,
-                  "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
+                  "description": "Nomor Owner Paling Tamvan",
                   "rowId": `.owner`
                 },{
                   "title": "❗ INFO BOT",
@@ -433,7 +433,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "rowId": `${_p}? textpro`
                 }
                   ],
-                "title": "LIST MENU"
+                "title": "DAFTAR MENU"
               }
             ], "contextInfo": {
               "stanzaId": m.key.id,
